@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 15rem;
+}
+
+h2 {
+    color: white;
+    padding-bottom:20px ;
+    font-size: 28px;
+}
+
+img {
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 240px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    max-width: 100%;
+    display: flex;
+    gap: 20x;
+    width: 80%;
+
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.65;
+}
+
+/* .box {
+    width: 16.6%;
+} */
+
+.sedan {
+    padding: 40px;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.suvs {
+
+
+    padding: 40px;
+    background-color: hsl(184, 100%, 22%);
+    word-wrap: break-word;
+}
+
+.luxury {
+
+    padding: 40px;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    word-wrap: break-word;
+}
+
+.btn {
+    padding: 12px 28px;
+    border-radius: 500px;
+    background: white;
+    border: white;
+    cursor: pointer;
+    width: fit-content;
+    margin-top: 7rem;
+    margin-bottom: 15px;
+}
+
+.sedan-btn {
+    color: hsl(31, 77%, 52%);
+
+}
+
+.suv-btn {
+    color: hsl(184, 100%, 22%);
+}
+
+.lux-btn {
+    color: hsl(179, 100%, 13%);
+
+
+}
+
+.sedan-btn:hover {
+    border: 1px solid white;
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv-btn:hover {
+    border: 1px solid white;
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.lux-btn:hover {
+    border: 1px solid white;
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+}
