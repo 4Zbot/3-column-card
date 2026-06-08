@@ -27,7 +27,6 @@ img {
 
 .container {
     width: 240px;
-    border: 1px solid black;
     border-radius: 0.5rem;
     max-width: 100%;
     display: flex;
