@@ -6,70 +6,66 @@
 
 body {
     font-family: "Lexend Deca", sans-serif;
+
+
+}
+
+.body {
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 15px;
-    padding: 15rem;
 }
 
 h2 {
     color: white;
-    padding-bottom:20px ;
-    font-size: 28px;
+    margin-bottom: 20px;
+    font-size: 2.3rem;
 }
 
 img {
-    padding-bottom: 20px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    display: block;
 }
 
 .container {
-    width: 240px;
+    margin: 1rem;
     border-radius: 0.5rem;
-    max-width: 100%;
+    max-width: 900px;
     display: flex;
-    gap: 20x;
-    width: 80%;
 
 }
 
 p {
     color: hsla(0, 0%, 100%, 0.75);
-    line-height: 1.65;
+
 }
 
-/* .box {
-    width: 16.6%;
-} */
-
 .sedan {
-    padding: 40px;
+    padding: 35px;
     background-color: hsl(31, 77%, 52%);
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
 
 .suvs {
-
-
-    padding: 40px;
+    padding: 35px;
     background-color: hsl(184, 100%, 22%);
-    word-wrap: break-word;
 }
 
 .luxury {
-
-    padding: 40px;
+    padding: 35px;
     background-color: hsl(179, 100%, 13%);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
-    word-wrap: break-word;
+
 }
 
-.btn {
-    padding: 12px 28px;
+.container a {
+    display: block;
+    padding: 10px 20px;
     border-radius: 500px;
     background: white;
     border: white;
@@ -77,6 +73,7 @@ p {
     width: fit-content;
     margin-top: 7rem;
     margin-bottom: 15px;
+    text-decoration: none;
 }
 
 .sedan-btn {
@@ -110,4 +107,23 @@ p {
     border: 1px solid white;
     color: white;
     background-color: hsl(179, 100%, 13%);
+
+}
+
+footer {
+
+    bottom: 0;
+    position: sticky;
+}
+
+@media screen and (max-width:850px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+
 }
